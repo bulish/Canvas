@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    padding: calc(10vw - 5rem);
+}
+
+h1 {
+    font-size: clamp(2.2rem, 4.5vw, 5rem);
+    color: #0c3953;
+}
+
+canvas {
+    border: 1px solid rgb(43, 41, 41);
+}
+
+@import './rectangles';
+@import './squares';
+@import './lines';
+@import './circles';
+@import './archeryTarget';
+@import './hangman';
